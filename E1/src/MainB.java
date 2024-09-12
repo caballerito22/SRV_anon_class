@@ -1,8 +1,4 @@
-class PersonaB {
-    // ...
-}
-
-interface alumne {
+interface KK {
 }
 
 
@@ -16,9 +12,10 @@ public class MainB {
 
     public static void main(String[] args) {
 
-        alumne pastorBelga = new alumne() {
+        Alumne pastorBelga = new Alumne() {
         };
 
-        imprimirJerarquiaDeClasses(pastorBelga.getClass());
+        KK kk = new KK() {};
+        imprimirJerarquiaDeClasses(kk.getClass());
     }
 }
