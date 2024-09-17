@@ -3,8 +3,6 @@ class Notification {
         System.out.println("You have " + num + " new messages");
     }
 }
-
-
 public class Main {
     public static void main(String[] args) {
 
