@@ -1,5 +1,5 @@
-interface Ejacutable {
-    void ejecutar();
+abstract class Ejacutable {
+    abstract void ejecutar();
 }
 
 class Ejecutor {
@@ -13,6 +13,8 @@ class Ejecutor {
 public class Main2 {
     public static void main(String[] args) {
         Ejecutor ejecutor = new Ejecutor();
+
+        //hay que poner bublic si es interface
 
         ejecutor.ejecutarXVeces(10,new Ejacutable(){
             @Override
