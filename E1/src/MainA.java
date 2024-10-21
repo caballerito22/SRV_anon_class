@@ -6,12 +6,6 @@ class Alumne extends Persona {
     // ...
 }
 
-class Pastor extends Alumne {
-    // ...
-}
-
-
-
 public class MainA {
 
     static void imprimirJerarquiaDeClasses(Class<?> c) {
